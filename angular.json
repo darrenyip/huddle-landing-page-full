@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "huddle-landing-page-full"
+    }
+  },
+  "defaultProject": "huddle-landing-page-full",
+  "cli": {
+    "analytics": "9efdf777-546f-437e-8658-8fbf4458794f"
+  }
 }

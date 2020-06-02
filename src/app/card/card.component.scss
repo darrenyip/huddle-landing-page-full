@@ -1,0 +1,48 @@
+$base-pink: hsl(322, 100%, 66%);
+$base-cyan: hsl(193, 100%, 96%);
+$light-cyan: hsl(208, 11%, 55%);
+$dark-cyan: hsl(192, 100%, 9%);
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+    border-radius: 16px;
+    margin: 0 5.5%;
+    margin-bottom: 40px;
+    .container{
+        padding-left: 120px;
+        padding-right: 16px;
+        display: flex;
+        justify-content: space-around;
+        .text-container{
+            width: 488px;
+            align-self: center;
+            h1{
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 42px;
+                color: $dark-cyan;
+            }
+            p{
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 27px;
+                color: #808E9A;
+            }
+        }
+        .card-img{
+            width: 440px;
+            height: 440px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.m-b-small{
+    margin-bottom: 16px;
+
+}

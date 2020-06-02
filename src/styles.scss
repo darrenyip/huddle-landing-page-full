@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+.body-font{
+    font-size: 18px;
+}
+body, html{
+    height: 100%;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    display: block;
+}
+main{
+    margin: 0 auto;
+    width: inherit;
+}
+footer{
+    color: white;
+    background-color: #00252E;
+}
